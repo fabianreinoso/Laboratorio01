@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/Style.css">
+    <title>Aerolinea</title>
+</head>
+<body>
+    <h1 class="titulo">Travel Authorization Form</h1>
+    <p class="seccionA">
+        Sección A: Informacion del cliente
+        <hr>
+    </p>
+    <form id="form-order">
+        <p>
+            <label for="cargo">Cargo: </label>
+            <input type="text" id="cargo" name="cargo" required minlength="4" maxlength="100" size="10" onKeyUp="this.value=this.value.toUpperCase();" style="width: 300px;">
+        </p>
+        <p>
+            <label for="nombre">Nombres: </label>
+            <input type="text" id="nombre" name="nombre" required minlength="4" maxlength="100" size="10" onKeyUp="this.value=this.value.toUpperCase();" style="width: 300px;">
+        </p>
+        <p>
+            <label for="papellido">Primer Apellido: </label>
+            <input type="text" id="papellido" name="papellido" required minlength="4" maxlength="100" size="10" onKeyUp="this.value=this.value.toUpperCase();" style="width: 300px;">
+        </p>
+        <p>
+            <label for="sapellido">Segundo Apellido: </label>
+            <input type="text" id="sapellido" name="sapellido" required minlength="4" maxlength="100" size="10" onKeyUp="this.value=this.value.toUpperCase();" style="width: 300px;">
+        </p>
+        <p>
+            <label for="email">Email: </label>
+            <input type="text" name="name" id="email" style="width: 150px;">
+        </p>
+        <p>
+            <label for="telefono">Numero de telefono: </label>
+            <input type="number" name="telefono" id="telefono" required minlength="0" maxlength="9" style="width: 150px;">
+        </p>
+        <p class="seccionB">
+            Sección B: Informacion del cliente
+            <hr>
+        </p>
+        <p>
+            <label for="opciones" >Nombre de la Aerolinea: </label>
+            <select name="select" class="select">
+                <option value="value1">Seleccione una Aerolinea</option>
+                <option value="value2">Latam</option>
+                <option value="value3">Nasa</option>
+                <option value="value4">Peru Air</option>
+                <option value="value5">Air line</option>
+            </select>
+            <p class="gastos">
+                Gastos adicionales añadidos
+            </p>
+        </p>
+        <p>
+            <label for="alquiler" class="alquiler">Alquiler: </label>
+            <input type="text" name="alquiler" id="alquiler">
+        </p>
+        <p>
+            <label for="hotel" class="hotel">Hotel: </label>
+            <input type="text" name="hotel" id="hotel">
+        </p>
+        <p>
+            <label for="comidas" class="comidas">Comidas: </label>
+            <input type="number" name="comidas" id="comidas">
+        </p>
+        <p>
+            <label for="moneda" class="moneda">Total Estimado: </label>
+            <input type="text" name="moneda" id="moneda" placeholder="0.00$" style="width: 40px;">
+        </p>
+        <p>
+            <label for="destino" class="destino">Destino: </label>
+            <input type="text" name="destino" id="destino">
+        </p>
+        <p>
+            <label for="fecha" class="fecha1">Fecha de ingreso: </label>
+            <input type="date" name="fecha" id="fecha1" min="2018-03-31">
+        </p>
+        <p>
+            <label for="fecha" class="fecha2">Fecha de salida: </label>
+            <input type="date" name="fecha" id="fecha2" min="2018-03-31">
+        </p>
+        <p class="metodos">
+            Metodo de pago utilizado
+        </p>
+        <p class="metodos">
+            <input type="radio" name="prioridad" value="baja">Metalico
+        </p class="metodos">
+        <p class="metodos">
+            <input type="radio" name="prioridad" value="baja">Metalico
+        </p>
+        <p class="metodos">
+            <input type="radio" name="prioridad" value="baja">Metalico
+        </p>
+        <p class="visita">
+            <input type="checkbox" name="envio" value="urgente">Incluye visita al cliente?
+        </p>
+        <p>
+            <label for="proposito" class="proposito">Proposito de viaje</label>
+            <input type="text" name="proposito" id="proposito">
+        </p>
+        <input type="submit" name="Enviar" id="boton">
+    </form>
+</body>
+</html>

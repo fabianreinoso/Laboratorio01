@@ -1,0 +1,143 @@
+.titulo{
+    border: 4px solid black;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(121, 160, 235);
+    color: #fff;
+}
+.seccionA{
+    color: rgb(110, 165, 228);
+    font-size: 30px;
+}
+#cargo{
+    position: relative;
+    left: 103px;
+}
+#nombre{
+    position: relative;
+    left: 84px;
+}
+#papellido{
+    position: relative;
+    left: 40px;
+}
+#sapellido{
+    position: relative;
+    left: 28px;
+}
+#email{
+    position: relative;
+    left: 105px;
+}
+#telefono{
+    position: relative;
+    left: 16px;
+}
+.seccionB{
+    color: rgb(110, 165, 228);
+    font-size: 30px;
+}
+.select{
+    position: relative;
+    left: 40px;
+}
+.gastos{
+    position: relative;
+    left: 500px;
+    bottom: 40px;
+}
+.alquiler{
+    position: relative;
+    bottom: 40px;
+    left: 500px;
+
+}
+#alquiler{
+    position: relative;
+    bottom: 40px;
+    left: 500px;
+}
+.hotel{
+    position: relative;
+    bottom: 40px;
+    left: 500px;
+}
+#hotel{
+    position: relative;
+    bottom: 40px;
+    left: 520px;
+}
+.comidas{
+    position: relative;
+    bottom: 40px;
+    left: 500px;
+}
+#comidas{
+    position: relative;
+    bottom: 40px;
+    left: 500px;
+}
+.moneda{
+    position: relative;
+    bottom: 40px;
+    left: 500px;
+}
+#moneda{
+    position: relative;
+    bottom: 40px;
+    left: 505px;
+}
+#destino{
+    position: relative;
+    left: 143px;
+    bottom: 190px;
+}
+.destino{
+    position: relative;
+    bottom: 190px;
+}
+.fecha1{
+    position: relative;
+    bottom: 198px;
+}
+#fecha1{
+    position: relative;
+    bottom: 198px;
+    left: 83px;
+}
+.fecha2{
+    position: relative;
+    bottom: 208px;
+}
+#fecha2{
+    position: relative;
+    bottom: 208px;
+    left: 92px;
+}
+.metodos{
+    position: relative;
+    left: 500px;
+    bottom: 140px;
+}
+.visita{
+    position: relative;
+    bottom: 280px;
+}
+.proposito{
+    position: relative;
+    bottom: 230px;
+}
+#proposito{
+    position: relative;
+    width: 610px;
+    bottom: 180px;
+    height: 70px;
+}
+#boton{
+    position: relative;
+    bottom: 130px;
+    background-color: rgb(73, 145, 226);
+    color: rgb(224, 224, 241);
+    font-size: 20px;
+    padding: 5px;
+}
